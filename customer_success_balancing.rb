@@ -183,7 +183,7 @@ class CustomerSuccessBalancingTests < Minitest::Test
     assert_equal 0, balancer.execute
   end
 
-  def test_scenario_nine
+  def test_scenario_ten
     balancer = CustomerSuccessBalancing.new(
       build_scores([50]),
       build_scores([20, 30, 40]),
@@ -192,7 +192,7 @@ class CustomerSuccessBalancingTests < Minitest::Test
     assert_equal 0, balancer.execute
   end
 
-  def test_scenario_ten
+  def test_scenario_eleven
     balancer = CustomerSuccessBalancing.new(
       build_scores([10, 20, 30, 40]),
       build_scores([]),
@@ -201,7 +201,7 @@ class CustomerSuccessBalancingTests < Minitest::Test
     assert_equal 0, balancer.execute
   end
 
-  def test_scenario_eleven
+  def test_scenario_twelve
     balancer = CustomerSuccessBalancing.new(
       build_scores([10, 20, 30, 40]),
       build_scores([1]),
@@ -210,7 +210,7 @@ class CustomerSuccessBalancingTests < Minitest::Test
     assert_equal 1, balancer.execute
   end
 
-  def test_scenario_twelve
+  def test_scenario_thirteen
     balancer = CustomerSuccessBalancing.new(
       build_scores([10, 20, 30, 40]),
       build_scores([1]),
@@ -219,7 +219,7 @@ class CustomerSuccessBalancingTests < Minitest::Test
     assert_equal 4, balancer.execute
   end
 
-  def test_scenario_thirteen
+  def test_scenario_fouteen
     balancer = CustomerSuccessBalancing.new(
       build_scores([10, 20, 30, 40]),
       build_scores([]),
@@ -228,14 +228,13 @@ class CustomerSuccessBalancingTests < Minitest::Test
     assert_equal 0, balancer.execute
   end
 
-  def test_scenario_fourteen
+  def test_scenario_fifteen
     balancer = CustomerSuccessBalancing.new(
       build_scores([50, 100]),
       build_scores([20, 30, 35, 40, 60, 80]),
       []
     )
     assert_equal 1, balancer.execute
-    
   end
 
   private
