@@ -16,7 +16,7 @@ The rule for balancing is deal out **Customer Success Managers** capacity's simi
 
 I've chosen use of **Ruby** for this Challenge. This decision was choosen by personal past experiences:
 
-**Ruby**: I worked on Ruby (particulary **RoR**) for the past 3 years and have been the more confortable language for me.
+**Ruby**: I've been working using Ruby(particulary **RoR**) for the past 3 years and currently has been the more confortable language for me.
 
 ### Ruby Version
  ```ruby 3.1.1p18 (2022-02-18 revision 53f5fc4236)```
