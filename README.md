@@ -58,7 +58,7 @@ For my implementation, some good practices that could be extended for scaling th
 
   As better approach would be use spec files in a **descrptive** approach using `describe`, `context ` and `it` modularization.
 
-## Instaling and Running the Test Locally
+## Installing and Running the Test Locally
   - install minitest gem as follow:
   ``` 
    >> gem install minitest 
