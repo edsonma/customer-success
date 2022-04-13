@@ -22,7 +22,7 @@ I've chosen use of **Ruby** for this Challenge. This decision was choosen by per
  ```ruby 3.1.1p18 (2022-02-18 revision 53f5fc4236)```
 
 ### Tools
-**Tools**: I use rbenv as ruby version management. I choosed that tool in order to avoid some annoying **RVM** warnings in my environment.
+I use rbenv as ruby version manager. I choosed that tool in order to avoid some annoying **RVM** warnings in my environment.
  ```rbenv 1.2.0```
  ```minitest-5.15.0```
 
